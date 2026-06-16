@@ -1,0 +1,31 @@
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Large / generated HTML files (keep source, ignore bulky renders)
+storagemac*.html
+StorageMAC*.html
+deepseek_html_*.html
+
+# Build / dist artifacts
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs / temp
+*.log
+*.tmp
+temp/
+tmp/
+
+# Dependencies
+node_modules/
+vendor/
